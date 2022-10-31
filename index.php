@@ -113,9 +113,9 @@
                 mengajak saudara/i sekalian ke jalan surga yang di ridhoi Allah
               </p>
               <p>ikuti kami di social media</p>
-              <a href="https://www.instagram.com/mediashihah/" target="_blank" rel="noreferrer"><i class= "f-icon fab fa-instagram fa-3x"></i></a>
-              <a href="https://www.youtube.com/channel/UCWcw7Fup4FvzkyBvjOP7nIQ" target="_blank" rel="noreferrer"><i class= "f-icon fab fa-youtube fa-3x"></i></a>
-              <a href="https://www.tiktok.com/@mediashihah?_t=8VMq2d7tGQU&_r=1" target="_blank" rel="noreferrer"><i class="f-icon fab fa-tiktok fa-3x"></i></a>
+              <a href="https://www.instagram.com/mediashihah/" target="_blank" rel="noreferrer"><i class= "f-iconi fab fa-instagram fa-3x"></i></a>
+              <a href="https://www.youtube.com/channel/UCWcw7Fup4FvzkyBvjOP7nIQ" target="_blank" rel="noreferrer"><i class= "f-icony fab fa-youtube fa-3x"></i></a>
+              <a href="https://www.tiktok.com/@mediashihah?_t=8VMq2d7tGQU&_r=1" target="_blank" rel="noreferrer"><i class="f-icont fab fa-tiktok fa-3x"></i></a>
               <!-- <i class="fab fa-instagram-square fa-3x" type="button" href="#About-us"></i> -->
             </div>
             <div class="col-md-6 text-center">
@@ -239,61 +239,66 @@
 
     <!-------------------------------------------------------- MAY Section --------------------------------------------->
     <section id="may">
+      <div class="circle circle2"></div>
+      <div class="circle circle3"></div>
+      <div class="circle circle1"></div>
       <h2 class="dept-title">MAY<br/>(Muttaba'ah Yaumiyyah)</h2>
       <div class="container text-center">
         <div id="may-section" class="carousel slide" data-bs-ride="false">
           <div class="carousel-inner">
             <div class="carousel-item active container">
-              <h4 class="my-4">Sudahkah Anda Shalat hari ini ?</h4>
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary me-4"
-                value="sudah"
-              />
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary"
-                value="belum"
-              />
-            </div>
-            <div class="carousel-item container">
-              <h4 class="my-4">Sudahkah Anda Bersedekah hari ini ?</h4>
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary me-4"
-                value="sudah"
-              />
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary"
-                value="belum"
-              />
-            </div>
-            <div class="carousel-item container">
-              <h4 class="my-4">Sudahkah Anda Ber-Istighfar hari ini ?</h4>
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary me-4"
-                value="sudah"
-              />
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary"
-                value="belum"
-              />
-            </div>
-            <div class="carousel-item container">
-              <h4 class="my-4">Sudahkah Anda Tahajud hari ini ?</h4>
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary me-4"
-                value="sudah"
-              />
-              <input
-                type="button"
-                class="btn btn-lg btn-outline-primary"
-                value="belum"
-              />
+              <form action="">
+                <h4 class="my-4">Sudahkah Anda Shalat hari ini ?</h4>
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary me-4"
+                  value="sudah"
+                />
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary"
+                  value="belum"
+                />
+              </div>
+              <div class="carousel-item container">
+                <h4 class="my-4">Sudahkah Anda Bersedekah hari ini ?</h4>
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary me-4"
+                  value="sudah"
+                />
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary"
+                  value="belum"
+                />
+              </div>
+              <div class="carousel-item container">
+                <h4 class="my-4">Sudahkah Anda Ber-Istighfar hari ini ?</h4>
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary me-4"
+                  value="sudah"
+                />
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary"
+                  value="belum"
+                />
+              </div>
+              <div class="carousel-item container">
+                <h4 class="my-4">Sudahkah Anda Tahajud hari ini ?</h4>
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary me-4"
+                  value="sudah"
+                />
+                <input
+                  type="button"
+                  class="btn btn-lg btn-outline-primary"
+                  value="belum"
+                />
+              </form>
             </div>
           </div>
           <button
@@ -367,8 +372,16 @@
     <section id="gallery">
       <div class="container-fluid">
         <h1 class="dept-title">Gallery</h1>
-        <div>
-
+        <div class="slide hi-slide">
+          <div class="hi-next"></div>
+          <div class="hi-prev"></div>
+          <ul>
+            <li><img src="" alt="Gambar 1"></li>
+            <li><img src="" alt="Gambar 2"></li>
+            <li><img src="" alt="Gambar 3"></li>
+            <li><img src="" alt="Gambar 4"></li>
+            <li><img src="" alt="Gambar 5"></li>
+          </ul>
         </div>
       </div>
       

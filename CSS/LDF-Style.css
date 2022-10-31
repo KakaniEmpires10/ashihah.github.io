@@ -113,6 +113,9 @@ body{
     color: #fff;
     /* box-shadow: 11px 10px 0 0 #fe2d52; */
     filter: drop-shadow(-2px -3px 0 #fe2d52);
+}
+
+.f-icont{
     /* filter: drop-shadow(-2px -3px 0 #28ffff); */
 }
 
@@ -164,8 +167,31 @@ body{
 }
 
 /* MAY Section */
+/* .circle{
+    width: 100px;
+    height: 100px;
+    background-color: #8aecff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1{
+    left : 100px;
+    top : 100px;
+}
+
+.circle2{
+    right : 100px;
+    bottom : 100px;
+}
+
+.circle3{
+    left : 200px;
+    top : 300px;
+} */
+
 #may{
-    /* background-image: linear-gradient(to right, #8aecff, #d8f9ff, #b1f2ff, #8aecff); */
+    background: radial-gradient(#8aecff, #b1f2ff, #d8f9ff, #fff);
     background-position: center;
     background-size: cover;
     /* color: #fff; */
@@ -211,8 +237,11 @@ body{
 /* Gallery Section */
 #gallery .container-fluid{
     padding-bottom: 100px;
-    background-color: transparent;
 }
+
+
+
+
 
 /* Footer Section */
 #footer{

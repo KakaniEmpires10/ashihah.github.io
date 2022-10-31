@@ -1,3 +1,5 @@
+//Fix Navbar//
+
 // $(window).scroll(function(){
 //     if ($(window).scrollTop()){
 //         $("nav").addClass("black");
@@ -6,3 +8,4 @@
 //         $("nav").removeClass("black");
 //     }
 // })
+
